@@ -1,0 +1,703 @@
+:root {
+  --ligte-blue:#dddddd;
+  --bold-blue:#081158;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  }
+*{
+	box-sizing: border-box;
+	/*background:#dddddd;*/
+}
+.pt-100 {
+	padding-top: 200px;
+}
+.pt-1000 {
+	padding-top: 100px;
+}
+.pxt{
+	padding-top: 900px;
+}
+.pb-100 {
+	padding-bottom: 100px;
+}
+.pb-300{
+	padding-bottom: 300px;
+}
+.pb-600{
+	padding-bottom: 600px;
+}
+.mbottom{
+	margin-bottom:200px;
+}
+.marleft{
+	margin-left:-30px;
+}
+.paddleft{
+padding-left:90px;
+}
+.paddright{
+padding-right:100px;
+}
+
+
+            /*------------------------------------------------------NAV BAR---------------------------------------------------------*/
+nav{
+	margin-top:25px;
+}
+.navbar-brand img{
+	width: 142px;
+	height: 35px;
+	color:#ec8675;
+}
+.nav-item{
+	margin-right: 25px;
+}
+a.nav-link{
+	color: #081158;
+	font-weight: 400px;
+	letter-spacing: 0.5px;
+}
+li.nav-item a:hover{
+	border-bottom: 1px solid #081158;
+	transition:0.3s all ease;
+	color:#ec8675;
+}
+a.nav-link.active:active{
+	color:pink;
+}
+
+
+a.btn.btn-primary.btn-lg{
+  background-color:#081158; 
+  width: 188px;
+  border-radius: 12px;
+  padding: 10px;
+  border: none;
+
+
+}
+.btn.btn-primary.btn-lg{
+    color: #fff;
+    background-color:#081158;
+    border-radius: 12px;
+    border-color:#081158;
+    padding: 10px;
+    font-size:16px;
+}
+ .btn.btn-primary.btn-lg:hover{
+ 	background:#ec8675;
+  color: black;
+ }
+ 
+i .fa .fa-angle-right{
+ 	width: 80px;
+ 	background-color:#081158;
+ }
+
+ img.shopping-cart{
+    width: 26px;
+     height: 26px; 
+     margin-left: 25px;
+ }
+ .navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color:transparent;
+  border-radius: 0.25rem; }
+
+   /*------------------------------------------------------------CAROUSEL SECTION----------------------------------------------------*/
+
+
+ .slidimeges img{
+ 	box-shadow:-5px 0px 10px #BFC8EA inset;
+ 	margin-left: 30px;
+ }
+ .slidimeges img.rounded{
+    width: 460px; 
+    height: 476px;
+}
+.slidtext{
+  margin-bottom:30px;
+}
+ .slidtext h6{
+ 	color:#081158;
+    font-weight:500;
+    letter-spacing:1px;
+    text-transform: uppercase;
+    margin-bottom:20px;
+}
+.slidtext h1{
+	margin-top: 0px;
+    margin-bottom: 30px;
+    font-family: 'Red Hat Display', sans-serif;   
+    font-size: 72px;
+    line-height: 1.1em;
+    font-weight: 700;
+    color:#081158;
+}
+.slidtext p{
+	font-size: 20px;
+	line-height: 1.8em;
+	max-width: 500px;
+	margin-bottom: 30px;
+}
+a.carousel-control-prev{
+	margin-right:50px;
+}
+.carousel-control-prev ,.carousel-control-next{
+	border-radius: 50%;
+	background-color: rgba(8, 17, 88, 0.2);
+	align-items: center;
+	border: 1px solid #081158;
+    width: 40px;
+    height: 40px;
+    margin-top: 250px;
+}
+
+/*------------------------------------------------------Statistic WEB-------------------------------------------------------------*/
+svg.waves{
+position: relative;
+bottom: 0;
+left: 0;
+z-index: 1;
+padding: 0;
+
+}
+div.row.Statistic{
+	position: relative;
+	z-index: 2;
+	margin-top: -150px;
+   background-color:#081158;
+   padding-bottom: 20px;
+}
+.Statweb h1{
+color: white;
+font-size: 40px;
+font-weight: 600;
+font-family: 'Red Hat Display', sans-serif;   
+text-align: center;
+background-color:#081158;
+
+}
+
+.Statweb h5{
+color: gray;
+font-size: 18px;
+font-weight: 500;
+text-align: center;
+background-color:#081158;
+font-family: 'Red Hat Display', sans-serif;   
+
+}
+
+/*------------------------------------------------------------CARD SECTION--------------------------------------------------------------*/
+section .healthier-body{
+background-color:#fff;
+background-size: cover;
+}
+
+
+.servicetitle h1{
+	color:#081158;
+	margin-top: 0px;
+    margin-bottom: 30px;
+    font-family: 'Red Hat Display', sans-serif;   
+    font-size: 50px;
+    line-height: 1.4em;
+    font-weight: 600;
+    max-width: 800px;
+}
+.card-body h5.card-title{
+	color:#081158;
+	font-family: 'Red Hat Display', sans-serif;   
+	font-size: 30px;
+	font-weight:500px;
+	text-align: center;
+	line-height: 1.1em;
+	margin-bottom: 30px;
+
+}
+.card-body p.card-text{
+color:#081158;
+font-size: 16px;
+font-family: 'Red Hat Display', sans-serif;   
+text-align: center;
+line-height: 1.8em;
+max-width: 500px;
+}
+div.card.fourpic{
+width:412px; 
+height: 325px; 
+margin-bottom: 400px;
+margin-right: 200px;
+}
+
+/*------------------------------------------------------------FITNESS PLANS----------------------------------------------------------*/
+
+section.fitness-plans{
+	background-color:#dddddd;
+	padding-bottom: 300px;
+}
+.servicetitle{
+  margin-bottom: 25px;
+}
+.servicetitle p{
+	color:#081158;
+    margin-bottom: 30px;
+    font-family: 'Red Hat Display', sans-serif;   
+    font-size: 16px;
+    line-height: 1.8em;
+    max-width: 500px;
+}
+
+.card-body h5.card-title .plan{
+	text-align: left;
+	font-size: 16px;
+	font-family: 'Red Hat Display', sans-serif; 
+
+}
+.card.ch{
+    width:310px; 
+    height: 400px; 
+    border-top-right-radius:20px; 
+    border-top-left-radius:20px;
+    }
+
+.card-img-top.freepic{
+    width:310px; 
+    height:400px;
+}
+
+h5.card-title.chfp{
+text-align:left; 
+font-size: 16px; 
+font-family:'Red Hat Display',sans-serif;
+}
+
+h6.card-subtitle.chfpst.mb-2{
+text-align:left; 
+font-size: 20px;
+font-weight:bold; 
+font-family:'Red Hat Display',sans-serif; 
+color:#081158;
+line-height: 1.9em;
+}
+
+span.price{
+	font-size:20px;
+	font-weight: bolder;
+    font-family:'Caveat', cursive,sans-serif;
+    float: right;
+    color: #ec8675;
+    letter-spacing: 1PX;
+
+}
+img.heroof-free{
+    width:1150px;
+    padding:0; 
+    margin-top: 100px; 
+    border-radius:20px;"
+}
+
+ /*-----------------------------------------------------------premium FITNESS PLANS-----------------------------------------------------*/
+
+.card-body.changpr{
+	background-color: #fff;
+	padding-bottom:150px;
+	border-bottom-right-radius:20px;
+	border-bottom-left-radius:20px;
+	width: 310px;
+
+}
+ /*-------------------------------------------------------HERO BACKGROUND SECTION-------------------------------------------------------*/
+
+ section.herobg{
+ 	margin-top:0px;
+ }
+ h2.subheadingcaveat{
+ 	padding:100px;
+ 	text-align:center;
+ 	color:white;
+ 	line-height:1.4em;
+ 	font-size:60px;
+ 	font-weight:500;
+    letter-spacing:1px;
+    font-family:'Caveat', cursive,sans-serif;
+ }
+
+ h2.subheadingcaveat span.letsword{
+    font-size:100px;
+ 	font-weight:800;
+ 	color:#081158; 
+ }
+
+ /*--------------------------------------------------------BENEFIT ONLINE FITNESS------------------------------------------------------*/
+
+ .benefittext h1{
+	margin-top: 0px;
+    margin-bottom: 30px;
+    font-family: 'Red Hat Display', sans-serif;   
+    font-size: 64px;
+    line-height: 1.1em;
+    font-weight: 500;
+    color:#081158;
+    max-width:900PX;
+}
+ .benefittext  p{
+	font-size: 20px;
+	line-height: 1.8em;
+	max-width: 500px;
+	margin-bottom: 30px;
+}
+div.benefitimeges img.rounded.croop{
+    width:532px;
+    height:530px;
+ }
+
+.benefitimeges img{
+ 	box-shadow:-5px 0px 10px #BFC8EA inset;
+ 	margin-left: 30px;
+ }
+ /*ABOUT CSS STYLE*/
+a img.onlincoaching{
+  width:1200px;
+}
+img.rounded.aboutpic.mx-auto.text-center{
+  width:532px; 
+  height:530px;
+}
+ /*--------------------------------------------------------FORME SECTION------------------------------------------------------*/
+
+ 
+ div.container.channg{
+ 	background-color:#B4AEE8;
+ 	border-radius:12px;
+ 	padding-bottom: 100px;
+ 	margin-top: 150px;
+ }
+
+ .col.ch{
+ 	display: grid;
+    width: 100%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+ }
+
+ .form-control {
+    display: block;
+    width: 100%;
+    height:60px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #081158;
+    background-color:rgba(32, 52, 146, 0.1);
+    background-clip: padding-box;
+    border: 1px none #000;
+    border-radius:6px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+ /*--------------------------------------------------------POST SECTION-------------------------------------------------------*/
+
+.postimg{
+   position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.postimg img{
+	height:600px ;
+	width:298px;
+}
+
+.postcontect{
+	position: relative;
+    z-index: 2;
+    padding: 20px;
+    margin-top:400px;
+    border-radius: 10px;
+    background-color: #fff;
+    width:260px;
+    height:170px;
+    max-width:800px;
+}
+
+.postcontect h4{
+	font-size: 15px;
+    line-height: 1.4em; 
+    color: #081158;
+}
+.postcontect h5{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-family: Sato, sans-serif;
+    font-size: 19px;
+    line-height: 1.1em;
+    font-weight: 700;
+    color: #081158;
+
+}
+ /*---------------------------------------------------------SOCIAL ICON SECTION-----------------------------------------------------*/
+
+  section.socialFllow{
+	background-color: #dddddd;
+}
+
+a img.socilicoons{
+	width: 258px;
+	height:183.06px ;
+	border-radius:20px;
+
+
+}
+ /*--------------------------------------------------------FOOTER SECTION-------------------------------------------------------*/
+
+
+
+footer.footer{
+	background-color: #081158;
+
+}
+
+.footer .ftco-footer-social li {
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+    margin-top:70px;
+    margin-left: 30px;
+}
+
+h2.footer-heading{
+	font-size: 20px;
+    margin-bottom: 15px;
+    color: #fff;
+    position: relative;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+a.footer-link{
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.6em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li a.py-1.d-block.Quicklist{
+	font-size: 19px;
+	text-decoration: none;
+	letter-spacing: 2px;
+    color: #fff;
+}
+li a.py-1.d-block.Quicklist:hover{
+	color:#343a40;
+    transition:0.3s all ease;
+
+}
+a.footer-link:hover{
+	color:#343a40;
+	transition:0.3s all ease;
+
+}
+
+ol li{
+	color:#081158;
+	font-size: 20px;
+}
+    /* ========================================= start media section  ========================================================  */
+
+
+
+   @media only screen and (max-width: 792px) {
+    .slidtext{
+  margin-bottom:60px;
+}
+ h2.subheadingcaveat span.letsword{
+    font-size:60px;
+ }
+.benefittext{
+  margin-bottom: 30px;
+}
+img.shopping-cart{
+     width: 20px;
+     height: 20px; 
+     margin-left: 10px;
+     order: 3;
+ }
+ .slidimeges img.rounded{
+    width: 460px; 
+    height: 470px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+ .slidtext h6{
+    margin-top: 50px;
+}
+.slidtext h1{  
+    font-size: 50px;
+    font-weight:500;
+}
+
+.benefittext h1{ 
+    font-size: 40px;
+    font-weight:400;
+}
+div.benefitimeges img.rounded.croop{
+    width:350px;
+    height:430px;
+    margin: 0 auto;
+}
+a img.onlincoaching{
+  width:370px;
+}
+img.rounded.aboutpic.mx-auto.text-center{
+  width:432px; 
+  height:430px;
+}
+h2.subheadingcaveat{
+    font-size:23px;
+    font-weight:600;
+
+ }
+ span.letsword{
+    line-height:1.4em;
+    font-size:10px;
+    max-width: 900px;
+    font-weight:normal;
+    margin-right:30px;
+    letter-spacing: normal;
+ }
+
+.servicetitle h1{
+    font-size: 30px;
+}
+.card.ch{
+    width:210px; 
+    height: 300px; 
+    border-top-right-radius:20px; 
+    border-top-left-radius:20px;
+    margin-bottom: 400px;
+    }
+
+img.heroof-free{
+    width:450px;
+    padding:0; 
+    margin-top: 100px; 
+    border-radius:20px;"
+}
+span.price{
+    font-size:20px;
+    font-weight: bolder;
+    font-family:'Caveat', cursive,sans-serif;
+    color: #ec8675;
+    letter-spacing: 1PX;
+    padding:-15px;
+    float: right;
+
+}
+h5.card-title.chfp{
+    text-align:left; 
+    font-size: 16px;
+   font-weight: 500; 
+   padding-bottom:10px;
+   margin-bottom: 20px;
+  padding: 0;
+}
+h6.card-subtitle.chfpst.mb-2{
+    text-align:left; 
+   font-size: 18px;
+   font-weight:bold; 
+}
+.row.formm{
+    display:block;
+ }
+.col.ch{
+  margin-bottom: 30px;
+}
+div.container.channg{
+ width: 450px;
+}
+.postcontect{
+  position: relative;
+    z-index: 2;
+    padding: 20px;
+    margin-top:400px;
+    border-radius: 10px;
+    background-color: #fff;
+    width:260px;
+    height:170px;
+    max-width:800px;
+    margin-bottom: 400px;
+    text-align: center;
+}
+div.row.post{
+  margin-bottom: 60px;
+  margin-left: 70px;
+}
+div.row.premium,div.row.freer{
+margin: 0 2rem;
+text-align: center;
+}
+}
+
+@media only screen 
+  and(min-device-width: 768px){
+
+  }
+
+/* if the viewport is equal to 1910px or less than that */ 
+ @media only screen and (max-width: 1910px){
+
+  .navbar{
+        padding: 1rem;
+    }
+.container{
+        max-width: 90%;
+    }
+
+    section .healthier-body,
+    section.fitness-plans,
+    section.premium-fitness,
+    section.formsection,
+    section.socialFllow,
+    {
+        padding: 3% 4%;
+    }
+
+   
+  
+ }
+  @media only screen and (max-width: 1000px){
+    .nav-link:hover{
+      border-bottom: none;
+    }
+  }
+
+

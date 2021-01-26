@@ -1,0 +1,908 @@
+h1 {
+    font-size: 55px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  .section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  nav{
+    position: static;
+  }
+  .nav-link {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #081158;
+    text-align: center;
+  }
+  .style-grid-three-c {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .navbar-brand {
+    z-index: 2;
+  }
+  .navbar-nav {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    z-index: 1;
+    width: 50vw;
+    padding: 100px 50px 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #cfddee;
+    text-align: center;
+  }
+  .menu-button {
+    padding: 10px;
+  }
+  .menu-button.w--open {
+    z-index: 2;
+    background-color: #081158;
+  }
+  .hero-slider-content {
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+  }
+  .hero-slider-image-wrap {
+    overflow: hidden;
+  }
+  .hero-nav-arrow.right-arrow {
+    padding-right: 50px;
+  }
+  .hero-nav-arrow.left-arrow {
+    padding-left: 15px;
+  }
+  .product-list {
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+  }
+  .product-image-wrap {
+    height: 250px;
+  }
+  .product-description {
+    padding: 20px;
+  }
+  .description-image-wrap {
+    width: 100%;
+  }
+  .description-bg {
+    top: 100px;
+  }
+  .newsletter-form {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .form-grid {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .blog-list {
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+  }
+  .blog-item {
+    min-height: 350px;
+    padding: 100px 20px 20px;
+  }
+  .blog-content {
+    padding: 15px;
+  }
+  .insta-post-wrap {
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+  }
+  .insta-section-line {
+    height: 150px;
+  }
+  .social-wrap {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  .social-icon {
+    height: 30px;
+  }
+  .price-wrap {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 15px;
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  .cart {
+    z-index: 2;
+  }
+  .hero-line {
+    height: 150px;
+  }
+  .about-video-wrap {
+    height: 450px;
+  }
+  .contact-form {
+    padding: 30px;
+  }
+  .contact-form-grid {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .checkout-form {
+    padding-top: 100px;
+  }
+  .sticky-form {
+    position: relative;
+    top: 0px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  .shipping-container {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+body{
+    background-color:black;
+  }
+
+.slidimeges img.rounded{
+    width: 476px; 
+    height: 476px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+
+ .slidtext h6{
+    margin-top: 30px;
+}
+.slidtext h1{  
+    font-size: 50px;
+    font-weight:500;
+}
+
+div.row.journey,div.row.freer,div.row.premium,div.row.post{
+display: block;
+text-align: center;
+margin: 0 auto;
+}
+section.healthier-body{
+display: inline-block;
+margin: 0 auto;
+text-align: center;
+padding-left:90px;
+}
+.card-body h5.card-title{
+     font-size: 20px;
+     margin: 0 auto;
+text-align: center;
+}
+.card-body p.card-text{
+font-size: 16px;
+margin: 0 auto;
+text-align: center;
+}
+div.card.ch{
+    margin-bottom: 300px;
+    margin-left: 70px;
+}
+
+h5.card-title.chfp{
+    text-align:left; 
+    font-size: 16px;
+   font-weight: 500; 
+   padding-bottom:10px;
+
+}
+h6.card-subtitle.chfpst.mb-2{
+    text-align:left; 
+   font-size: 18px;
+   font-weight:bold; 
+}
+span.price{
+    font-size:20px;
+    font-weight: bolder;
+    font-family:'Caveat', cursive,sans-serif;
+    float: right;
+    color: #ec8675;
+    letter-spacing: 1PX;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img.shopping-cart{
+    margin-left: 20px;
+}
+.slidimeges img.rounded{
+    width: 450px; 
+    height: 476px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+
+ .slidtext h6{
+    margin-top: 30px;
+}
+.slidtext h1{  
+    font-size: 50px;
+    font-weight:500;
+}
+
+svg.waves{
+height:250px;
+}
+.Statweb h1{
+font-size: 20px;
+font-weight: 500;
+}
+.Statweb h5{
+font-size: 18px;
+}
+
+div.row.freer,div.row.premium,div.row.post{
+text-align: center;
+margin: 0 auto;
+}
+
+div.card.ch{
+    margin-bottom: 300px;
+    margin-left: -20px;
+    margin-right: -30px;
+    
+}
+
+h5.card-title.chfp{
+    text-align:left; 
+    font-size: 16px;
+   font-weight: 500; 
+   padding-bottom:10px;
+
+}
+h6.card-subtitle.chfpst.mb-2{
+    text-align:left; 
+   font-size: 18px;
+   font-weight:bold; 
+}
+span.price{
+    font-size:20px;
+    font-weight: bolder;
+    font-family:'Caveat', cursive,sans-serif;
+    float: right;
+    color: #ec8675;
+    letter-spacing: 1PX;
+}
+
+h2.subheadingcaveat{
+    font-size:23px;
+    font-weight:600;
+
+ }
+ span.letsword{
+    line-height:1.4em;
+    font-size:10px;
+    max-width: 900px;
+    font-weight:normal;
+    margin-right:30px;
+    letter-spacing: normal;
+ }
+
+ .benefittext h1{ 
+    font-size: 50px;
+    font-weight:400;
+}
+div.benefitimeges img.rounded.croop{
+    width:350px;
+    height:400px;
+    margin: 0 auto;
+    margin-left: 50px;
+
+ }
+
+.postcontect h5{
+    font-size: 15px;
+   font-weight: 700;
+}
+div.row.iconmedia{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+   body{
+    background-color: black;
+   } 
+}
+@media (max-width: 375px) {
+div.card.fourpic img.card-img-top{
+width:312px; 
+height: 225px;
+margin-right:30px;
+}
+ div.card.ch{
+  margin-left: 0;
+}
+
+span.letsword{
+    padding:0;
+    text-align: center;
+    line-height:1.4em;
+    font-size:10px;
+    max-width: 400px;
+    font-weight:normal;
+    letter-spacing: normal;
+ }
+.benefittext h1{ 
+    font-size: 40px;
+    font-weight:400;
+}
+div.benefitimeges img.rounded.croop{
+    width:350px;
+    height:430px;
+    margin: 0 auto;
+}
+div.container.channg{
+  background-color:#B4AEE8;
+  border-radius:12px;
+  padding-bottom: 100px;
+  margin-top: 150px;
+  width: 350px;
+ }
+
+
+
+a img.socilicoons{
+  margin-left: 35px;
+}
+}
+@media (max-width: 768px) {
+body{
+    background-color: red;
+}
+  nav{
+    position: static;
+  }
+  .nav-link {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #081158;
+    text-align: center;
+  }
+button.navbar-toggler{
+    order: 2;
+    margin-right: 10px;
+}
+img.shopping-cart{
+    width: 20px;
+     height: 20px; 
+     margin-left: 10px;
+     order: 3;
+ }
+ .slidimeges img.rounded{
+    width: 230px; 
+    height: 570px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+ .slidtext h6{
+    margin-top: 50px;
+}
+.slidtext h1{  
+    font-size: 60px;
+    font-weight:500;
+}
+div.row.Statistic{
+   margin-top:100px;
+}
+svg.waves{
+visibility: hidden;
+}
+.Statweb h1{
+padding-top: 50px;
+
+}
+div.card.fourpic{
+width:312px; 
+height: 225px; 
+margin-bottom: 500px;
+margin-right: 200px;
+}
+.card-body h5.card-title{
+  color:#081158;
+  font-family: 'Red Hat Display', sans-serif;   
+  font-size: 20px;
+  font-weight:400px;
+  text-align: center;
+  line-height: 1.1em;
+  margin-bottom: 30px;
+
+
+}
+.card-body p.card-text{
+color:#081158;
+font-size: 16px;
+font-family: 'Red Hat Display', sans-serif;   
+text-align: center;
+line-height: 1.8em;
+max-width: 500px;
+margin: 0 auto;
+}
+h2.subheadingcaveat{
+    font-size:23px;
+    font-weight:600;
+
+ }
+ span.letsword{
+    line-height:1.4em;
+    font-size:10px;
+    max-width: 900px;
+    font-weight:normal;
+    margin-right:30px;
+    letter-spacing: normal;
+ }
+
+.benefittext h1{ 
+    font-size: 40px;
+    font-weight:400;
+}
+/*div.benefitimeges img.rounded.croop{
+    width:50px;
+    height:530px;
+    margin: 0 auto;
+}*/
+
+div.row.freer,div.row.premium,div.row.post{
+display: block;
+text-align: center;
+margin: 0 auto;
+justify-content: space-around;
+}
+
+.servicetitle h1{
+    font-size: 30px;
+}
+
+img.card-img-top{
+    width: 412px;
+    height: 425px;
+}
+div.card.fourpic{
+width:312px; 
+height:225px; 
+
+}
+div.card.ch{
+    margin-bottom: 300px;
+}
+
+img.heroof-free{
+    width:450px;
+    padding:0; 
+    margin-top: 100px; 
+    border-radius:20px;"
+}
+span.price{
+    font-size:20px;
+    font-weight: bolder;
+    font-family:'Caveat', cursive,sans-serif;
+    color: #ec8675;
+    letter-spacing: 1PX;
+    padding:-15px;
+    float: right;
+
+}
+h5.card-title.chfp{
+    text-align:left; 
+    font-size: 16px;
+   font-weight: 500; 
+   padding-bottom:10px;
+   margin-bottom: 20px;
+  padding: 0;
+}
+h6.card-subtitle.chfpst.mb-2{
+    text-align:left; 
+   font-size: 18px;
+   font-weight:bold; 
+}
+.row.formm{
+    display:block;
+ }
+.col.ch{
+  margin-bottom: 30px;
+}
+
+/* div.container.channg{
+ width: 450px;
+}*/
+}
+@media (max-width: 1024px) {
+ img.rounded.croop{
+    width:350px;
+    height:430px;
+    margin: 0 auto;
+}
+.slidimeges img.rounded{
+    width:230px; 
+    height:450px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    body{
+      background-color: grey;
+    }
+ nav{
+    position: static;
+  }
+  .nav-link {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #081158;
+    text-align: center;
+  }
+button.navbar-toggler{
+    order: 2;
+    margin-right: 10px;
+}
+img.shopping-cart{
+    width: 20px;
+     height: 20px; 
+     margin-left: 10px;
+     order: 3;
+ }
+ .slidimeges img.rounded{
+    width: 330px; 
+    height: 550px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+ .slidtext h6{
+    margin-top: 50px;
+}
+.slidtext h1{  
+    font-size: 60px;
+    font-weight:500;
+}
+svg.waves{
+visibility: hidden;
+}
+.Statweb h1{
+padding-top: 50px;
+
+}
+div.card.fourpic{
+width:212px; 
+height: 225px; 
+margin-bottom: 500px;
+}
+.card-body h5.card-title{
+  color:#081158;
+  font-family: 'Red Hat Display', sans-serif;   
+  font-size: 20px;
+  font-weight:400px;
+  text-align: center;
+  line-height: 1.1em;
+  margin-bottom: 30px;
+
+
+}
+.card-body p.card-text{
+color:#081158;
+font-size: 16px;
+font-family: 'Red Hat Display', sans-serif;   
+text-align: center;
+line-height: 1.8em;
+max-width: 500px;
+margin: 0 auto;
+}
+h2.subheadingcaveat{
+    font-size:23px;
+    font-weight:600;
+
+ }
+ span.letsword{
+    line-height:1.4em;
+    font-size:10px;
+    max-width: 900px;
+    font-weight:normal;
+    margin-right:30px;
+    letter-spacing: normal;
+ }
+
+.benefittext h1{ 
+    font-size: 40px;
+    font-weight:400;
+}
+div.benefitimeges img.rounded.croop{
+    width:450px;
+    height:530px;
+    margin: 0 auto;
+}
+
+/*div.row.freer,div.row.premium,div.row.post{
+display: block;
+text-align: center;
+margin: 0 auto;
+justify-content: space-around;
+}*/
+
+.servicetitle h1{
+    font-size: 30px;
+}
+
+img.card-img-top{
+    width: 412px;
+    height: 425px;
+}
+div.card.fourpic{
+width:312px; 
+height:225px; 
+
+}
+div.card.ch{
+    margin-bottom: 300px;
+    margin-left: 70px;
+}
+
+img.heroof-free{
+    width:450px;
+    padding:0; 
+    margin-top: 100px; 
+    border-radius:20px;"
+}
+span.price{
+    font-size:20px;
+    font-weight: bolder;
+    font-family:'Caveat', cursive,sans-serif;
+    color: #ec8675;
+    letter-spacing: 1PX;
+    padding:-15px;
+    float: right;
+
+}
+h5.card-title.chfp{
+    text-align:left; 
+    font-size: 16px;
+   font-weight: 500; 
+   padding-bottom:10px;
+   margin-bottom: 20px;
+  padding: 0;
+}
+h6.card-subtitle.chfpst.mb-2{
+    text-align:left; 
+   font-size: 18px;
+   font-weight:bold; 
+}
+.benefittext h1{ 
+    font-size: 40px;
+    font-weight:400;
+}
+div.benefitimeges img.rounded.croop{
+    width:350px;
+    height:530px;
+    margin: 0 auto;
+}
+.row.formm{
+    display:block;
+ }
+.col.ch{
+  margin-bottom: 30px;
+}
+
+ div.container.channg{
+ width: 450px;
+}
+    
+}
+
+@media (width: 991px) {
+   body{
+    background-color: orange;
+   }
+h1 {
+    font-size: 55px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  .section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  nav{
+    position: static;
+  }
+  .nav-link {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #081158;
+    text-align: center;
+  }
+button.navbar-toggler{
+    order: 2;
+    margin-right: 10px;
+}
+img.shopping-cart{
+    width: 20px;
+     height: 20px; 
+     margin-left: 10px;
+     order: 3;
+ }
+ .slidimeges img.rounded{
+    width: 530px; 
+    height: 470px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+ .slidtext h6{
+    margin-top: 50px;
+}
+.slidtext h1{  
+    font-size: 50px;
+    font-weight:500;
+}
+
+.benefittext h1{ 
+    font-size: 40px;
+    font-weight:400;
+}
+div.benefitimeges img.rounded.croop{
+    width:450px;
+    height:530px;
+    margin: 0 auto;
+}
+
+
+
+.servicetitle h1{
+    font-size: 30px;
+}
+div.card.fourpic{
+  margin-left: 70px;
+}
+div.card.fourpic img.card-img-top{
+width:312px; 
+height: 225px;
+}
+ .card.ch{
+    width:210px; 
+    height: 300px; 
+    border-top-right-radius:20px; 
+    border-top-left-radius:20px;
+    }
+
+img.heroof-free{
+    width:450px;
+    padding:0; 
+    margin-top: 100px; 
+    border-radius:20px;"
+}
+span.price{
+    font-size:20px;
+    font-weight: bolder;
+    font-family:'Caveat', cursive,sans-serif;
+    color: #ec8675;
+    letter-spacing: 1PX;
+    padding:-15px;
+    float: right;
+
+}
+h5.card-title.chfp{
+    text-align:left; 
+    font-size: 16px;
+   font-weight: 500; 
+   padding-bottom:10px;
+   margin-bottom: 20px;
+  padding: 0;
+}
+h6.card-subtitle.chfpst.mb-2{
+    text-align:left; 
+   font-size: 18px;
+   font-weight:bold; 
+}
+.row.formm{
+    display:block;
+ }
+.col.ch{
+  margin-bottom: 30px;
+}
+}
